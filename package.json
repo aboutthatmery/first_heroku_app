@@ -1,0 +1,30 @@
+{
+  "name": "first-heroku-api",
+  "version": "0.1.0",
+  "description": "",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js",
+    "start-dev": "nodemon -r dotenv/config main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fbw-d05/first-heroku-api.git"
+  },
+  "author": "Ferdinand Hoske",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fbw-d05/first-heroku-api/issues"
+  },
+  "homepage": "https://github.com/fbw-d05/first-heroku-api#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongodb": "^4.9.1"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.2",
+    "nodemon": "^2.0.19"
+  }
+}
